@@ -1,0 +1,91 @@
+.header {
+    height: 250px;
+    width: 100%;
+    background: url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  .header-name {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 72px;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .header-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+
+  .main{
+    max-width: 100%;
+    height: auto;
+    overflow:hidden
+  }
+
+  .clothes{
+    float: left;
+    width: 25%;
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,.3);
+    height: 100px;
+  }
+
+  .main-block {
+    float: right;
+    width: 75%;
+  }
+
+  .tmp-block {
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .category-wrap {
+    float:left;
+    width: 20%;
+    padding: 25px;
+    padding-top: 40px;
+    background: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .category-wrap h3 {
+    text-align: left;
+    font-size: 32px;
+    margin: 0 0 10px;
+    padding: 0 5px;
+  }
+
+  .category-wrap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    border-top: 1px solid rgba(0,0,0,.3);
+  }
+  .category-wrap li {margin: 12px 0 0 0px;}
+
+  .category-wrap a {
+    text-decoration: none;
+    display: block;  
+    font-size: 18px;
+    color: rgba(0,0,0);
+    padding: 5px;
+  }
+  
+  .category-wrap a:hover {
+    background: #80C8A0;
+    color: white;
+  }
+
+  .footer{
+    background: #80C8F0;
+    height: 100px;
+    text-align: center;
+  }
