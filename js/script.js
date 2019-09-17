@@ -75,7 +75,7 @@ companyBtn.addEventListener('click', function(){
     mainBlock.removeChild(tmpBlock);
     let div = document.createElement('div');
     div.classList.add('tmp-block');
-    div.innerHTML = 'Наша компания самая лучшая в мире';
+    div.innerHTML = 'Наша компания самая лучшая в мире <br> Телефон: 89061811125 <br> Адрес: Думенко 13Д <br> <img src = "../img/1.png" alt = "lol">';
     mainBlock.appendChild(div);
 });
 
